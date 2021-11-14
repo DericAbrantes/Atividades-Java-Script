@@ -16,9 +16,9 @@ function bhaskara() {
     if (!a || !b || !c) {
         createAlert("Insira os valores de a, b e c");
     } else if (a == 0) {
-        createAlert("O valor de <strong>a</strong>, deve ser diferente de 0");
+        createAlert("O valor de <strong>a</strong>, precisa ser diferente de 0");
     } else if (delta < 0) {
-        createAlert("Sem raízes reais");
+        createAlert("Sem raízes reais, tente novamante");
     } else {
         const x1 = (-b + Math.sqrt(delta)) / (2 * a);
         const x2 = (-b - Math.sqrt(delta)) / (2 * a);
@@ -48,4 +48,3 @@ $form.addEventListener("submit", function (event) {
     event.preventDefault();
     bhaskara();
 });
-Resources
