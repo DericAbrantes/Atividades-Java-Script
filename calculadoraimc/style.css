@@ -81,12 +81,6 @@
     box-shadow: 0 0 4px #333;
   }
   
-  @media screen and (max-width: 500px) {
-    .message {
-      bottom: 0;
-    }
-  }
-  
   .sucess {
     background-color: #2ecc71;
     color: #fff;
