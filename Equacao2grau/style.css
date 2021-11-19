@@ -92,9 +92,3 @@ body {
   background-color: #ef5350;
   color: #fff;
 }
-
-@media screen and (max-width: 500px) {
-  .alert {
-    bottom: 0;
-  }
-}
